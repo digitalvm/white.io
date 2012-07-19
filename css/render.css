@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* 
+	Roll Theme for {wrapbootstrap}
+	Design : http://stackcandy.com
+	http://wrapbootstrap.com/user/oadam
+	Digvm 2012
+*/
+
+
+/* basic theme */
+body {font-family: 'Open Sans', sans-serif; font-weight:300;}
+html {}
+
+/* typogtaphy */
+
+h1{ font-weight:100;}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+
+p { font-family: 'Open Sans', sans-serif;}
+strong {}
+a {}
+
+#front h1 {font-size:32pt; line-height:38pt; font-weight:100;}
+#front h2 {font-size:18pt; line-height:28pt; font-weight:300;}
+
+/* sections */
+/* this is just basic styling of sections */
+
+#front { min-height:340px; padding:40px 0px;}
+#front .welcome-text {display:block; padding:20px 0px;}
+header { background:#1a1a1a; color:#FFFFFF; min-height:50px; padding:10px 0px;}
+header { border-bottom:6px solid #eeede2;}
+footer { background:#1a1a1a; color:#FFFFFF; padding:30px 0px;}
+#services {padding:50px 0px;}
+
+
+/* footer */
+
+footer ul.back-link li { display:block; padding:5px;}
+footer {font-size:9pt; margin-top:50px;}
+p.candy {opacity:0.5;font-size:8pt; color:#666666;} p.candy a {color:#666666; }
+
+
+/* gradients */
+
+.g1 {background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(237,236,225,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(237,236,225,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(237,236,225,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(237,236,225,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(237,236,225,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(237,236,225,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#edece1',GradientType=0 ); /* IE6-9 */
+}
+
+.g2 {background: rgb(237,236,225); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(237,236,225,1) 0%, rgba(255,255,255,1) 14%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(237,236,225,1)), color-stop(14%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(237,236,225,1) 0%,rgba(255,255,255,1) 14%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(237,236,225,1) 0%,rgba(255,255,255,1) 14%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(237,236,225,1) 0%,rgba(255,255,255,1) 14%); /* IE10+ */
+background: linear-gradient(top,  rgba(237,236,225,1) 0%,rgba(255,255,255,1) 14%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edece1', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
+/* gradiens styling */
+.g1 {border-bottom:2px solid #fff;}
+.g2 {border-top:4px solid #eae9df;}
+
